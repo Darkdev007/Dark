@@ -1,0 +1,135 @@
+body{
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/images/white\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul{
+    list-style: none;   
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aqua;
+    box-shadow:2px 2px 12px rgba(0, 0, 0, 2);
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: myriad pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+.active{
+    font-weight: bold;
+    color: #2d2a2a;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #403e3e;
+    font-size: 30px;
+}
+
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+
+}
+.text-container{
+     position:absolute;
+    left: 13%; 
+    top: 42%; 
+    transform: translate(-13%,-42%); 
+}.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color: #333;
+
+}
+.down-cv{
+    background-color: #0b0b0b;
+    color: #FFFFFF;
+    
+}
+button:active{
+    transform: scale(1.1);
+}
+.model{
+    height: 530px;
+    position: absolute;
+    bottom: 20px;
+     left: 90%;
+    transform: translateX(-90%); 
+} 
+.about-container{
+ width: 80%;
+ height: 330px;
+ background-color: #FFFFFF;
+ border-radius: 20px;
+ box-shadow: 2px 2px 12 px rgba(0, 0, 0, 2);
+ display: flex;
+ margin: 0px auto 20px auto;
+ position: relative;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+
+.about-container img{
+    height: 250px;
+}
+.about-text{
+    width: 550px;
+}
+.about-text p:nth-child(1){
+    color: #3e3d3e;
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+}
+.about-text p:nth-child(3),
+.about-text p:nth-child(4){
+    color: #7e7d7d;
+    font-family: Calibri;
+    font-size: 16px;
+}
+.about-text button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: #262525;
+}

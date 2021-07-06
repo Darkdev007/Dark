@@ -1,0 +1,37 @@
+/* header section */
+.header{
+    display: grid;
+    text-align: right;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font: 13px sans-serif arial;
+}
+
+.header_text img{
+    width: 50px;
+}
+/* header section done */
+/* content section */
+.content{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 100px;
+
+}
+
+input{
+    display: flex;
+    height: 40px;
+    border: 1px solid;
+    border-radius: solid 25px;
+    align-self:  left;
+    
+    
+}
+/* content section done */
+

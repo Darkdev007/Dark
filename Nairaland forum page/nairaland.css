@@ -1,0 +1,55 @@
+#First_box{
+    height: 50%;
+    border-radius: 10px;
+    background-color: floralwhite;
+    text-align:center ;
+    border-style: ridge;
+    padding-bottom: 10px;
+    
+    
+
+
+}
+
+*{
+    text-align: center;
+    
+}
+
+#st1{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lavenderblush;
+
+}
+#st2{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
+
+#body{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: floralwhite;
+}
+
+#images1{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lavenderblush;
+
+}
+
+#numbers{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lightsteelblue;
+
+}
+#end{
+    border-style: ridge;
+    border-radius: 10px;
+    background-color: lavenderblush;
+    
+}

@@ -1,0 +1,104 @@
+/* header section */
+.header{
+    display: grid;
+    grid-template-columns: 20% 25% 50%;
+    align-items: center;
+    justify-items: center;
+    background-color: orange;
+
+}
+
+.logo img{
+    width: 50px;
+}
+
+.icons img{
+    width: 50px;
+}
+
+.navbar li{
+    margin-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+    color: white;
+}
+li{
+    display: inline;
+}
+/* header section end */
+
+/* banner section */
+
+.banner{
+    background-color: white;
+    align-items: center;
+    justify-items: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 20px;
+    color: rgb(124, 17, 17);
+}
+
+/* banner section end */
+h1{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+}
+
+/* content section*/
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,25%)
+}
+.box{
+    
+    border: 3px solid orange;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 150px 120px;
+}
+
+
+/* content section done */
+/* footer section */
+.footer{
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+    align-items: center;
+    justify-items: center;
+    padding: 30px 10px 10px;
+}
+.flogo img{
+    width: 200px;
+}
+.footer h3{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer p{
+    color: white;
+
+}
+.footer li{
+    display: block;
+}
+.footer hr {
+    color: solid white;
+    margin: 0 80px;
+    width: 10px;
+    border: 10px;
+
+}
+/* footer section done */
+

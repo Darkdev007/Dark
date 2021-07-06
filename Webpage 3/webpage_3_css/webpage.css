@@ -1,0 +1,434 @@
+/* for full screen */
+/* header section */
+.MenuIcon{
+    display: none;
+}
+*{
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 20% 25% 50%;
+    align-items: center;
+    justify-items: center;
+    background-color: orange;
+}
+.logo img{
+    width: 100px;
+}
+.icons img{
+    width: 40px;
+}
+.navbar li{
+    display: inline;
+    margin-left: 50px
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+}
+/* End of header section */
+/* banner section */
+.banner{
+    display: grid;
+    background-color: tomato;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid ;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 25vh;
+    align-items: center;
+}
+/* End of banner section */
+
+/* Content Section */
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+.box:hover{
+    border: 2px solid goldenrod;
+    box-shadow: 0 20px 10px 5px goldenrod;
+    transform: translateY(-30px);
+
+}
+.box{
+    margin-left: 50px 10px;
+    text-align: center;
+    width: 250px;
+    height: 60vh;
+    padding: 0px 20px 110px;
+    box-shadow: 0 0 20px 0 black;
+    transition: transform 0.5s;
+}
+
+.box-pic{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: tomato;
+}
+
+.box-pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.topleft{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.title-hover{
+    color: coral;
+    margin-top: 20px
+}
+
+.title-display{
+    display: none;
+}
+
+.title-hover:hover + .title-display{
+    display: block;
+    color: teal;
+    line-height: 2;
+}
+.topcenter1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.topcenter2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.topright{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.bottomleft{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.bottomcenter1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.bottomcenter2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.bottomright{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+
+/* End of Content section */
+/* footer section */
+.footer{
+    display: grid;
+    grid-template-columns: 20% 45% 10% 10%;
+    background-color: purple;
+    
+}
+.flogo img{
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer li{
+    display: block;
+    margin-top: 10px;
+}
+.footer a{
+    font-size: 25px;
+}
+
+.ftext{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    color: white;
+}
+
+.fnav{
+    margin-top: 10px;
+}
+.fsocials{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mfooter{
+    background-color: purple;
+    
+}
+.copy{
+    color: white;
+    text-align: center;
+}
+/* footer section done */
+/* End of full screen */
+
+/* small screen */
+@media (max-width : 500px){
+    .MenuIcon{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar{
+        display: grid;
+    }
+    .navbar img{
+        margin-left: 250px;
+        
+    }
+    .navbar ul{
+        top: 60px;
+        left: 0;
+        overflow: hidden;
+        background-color: black;
+        position: absolute;
+        text-align: right;
+        transition: max-height 0.5s;
+        width: 100%;
+    }
+    .navbar li{
+        display: block;
+        margin: 10px 50px 10px;
+    }
+    .navbar a{
+        color: blueviolet;
+    }
+    
+    
+    *{
+        margin: 0;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 20% 25% 50%;
+        align-items: center;
+        justify-items: center;
+        background-color: orange;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .icons img{
+        width: 30px;
+    }
+    .navbar li{
+        display: inline;
+        margin-left: 50px
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+        font-weight: 400;
+    }
+    /* End of header section */
+    /* banner section */
+    .banner{
+        display: grid;
+        background-color: tomato;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid ;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        height: 25vh;
+        align-items: center;
+    }
+    /* End of banner section */
+    
+    /* Content Section */
+    .content{
+        display: grid;
+        grid-template-columns: 50%;
+    }
+    .box{
+        margin-left: 30px;
+        display: grid;
+        margin-left: 10px;
+        
+    
+    }
+    .box img{
+        margin: 10px 20px;
+        padding: 25px 10px;
+        width: 400px;
+        border: 3px solid white;
+    }
+    /* End of Content section */
+    /* footer section */
+    .footer{
+        display: grid;
+        grid-template-columns: 30% 30% 10% 10%;
+        background-color: purple;
+        
+    }
+    .flogo img{
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .footer li{
+        display: block;
+        margin-top: 10px;
+    }
+    .footer a{
+        font-size: 25px;
+    }
+    
+    .ftext{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        margin-left: -00px;
+        color: white;
+        
+    }
+    
+    .fnav{
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+    .fsocials{
+        margin-top: 10px;
+        margin-left: -5px;
+    }
+    .mfooter{
+        background-color: purple;
+        
+    }
+    .copy{
+        color: white;
+        text-align: center;
+    }
+    /* footer section done */
+}
+/* end of small screen */
+/* medium screen size */
+@media(min-width: 501px) and (max-width: 1100px){
+    .MenuIcon{
+        display: block;
+        cursor: pointer;
+    }
+    .navbar{
+        display: grid;
+    }
+    .navbar img{
+        margin-left: 250px;
+        
+    }
+    #MenuItems{
+        top: 60px;
+        overflow: hidden;
+        background-color: black;
+        position: absolute;
+        text-align: right;
+        transition: max-height 0.5s;
+        margin-left: 100px;
+        
+    }
+    .navbar li{
+        display: block;
+        margin: 10px 50px 10px 0px;
+    }
+    .navbar a{
+        color: blueviolet;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .box{
+        margin-left: 30px;
+        display: grid;
+        margin-left: -40px;
+        padding-left: 10px;
+        padding-right: 120px;
+    
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 30% 45% 10% 10%;
+        background-color: purple;
+        
+    }
+    .flogo img{
+        width: 250px;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .footer li{
+        display: block;
+        margin-top: 10px;
+    }
+    .footer a{
+        font-size: 25px;
+    }
+    
+    .ftext{
+        display: grid;
+        text-align: center;
+        align-items: center;
+        margin-left: 100px;
+        color: white;
+    }
+    
+    .fnav{
+        margin-top: 10px;
+        margin-left: -45px;
+    }
+    .fsocials{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .mfooter{
+        background-color: purple;
+        
+    }
+    .copy{
+        color: white;
+        text-align: center;
+    }
+    
+}
+
+/* medium screen end */

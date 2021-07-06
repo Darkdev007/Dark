@@ -1,0 +1,130 @@
+/* for full screen */
+/* header section */
+.MenuIcon{
+    display: none;
+}
+*{
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 20% 25% 50%;
+    align-items: center;
+    justify-items: center;
+    background-color: orange;
+}
+.logo img{
+    width: 100px;
+}
+.icons img{
+    width: 40px;
+}
+.navbar li{
+    display: inline;
+    margin-left: 50px
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 400;
+}
+/* End of header section */
+/* content section */
+.form div{
+    margin-bottom: 50px;
+}
+
+.form{
+    border: 10px solid orange;
+    border-style: dashed;
+    background-image: url(/Images/picture\ 4.JPG);
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    background-position: center;
+    
+}
+
+button{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    
+}
+
+.contact_us{
+    border: salmon solid;
+    background-color: orange;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    text-align: center;
+    
+    display: grid;
+}
+.contact_us h1{
+    color: purple;
+    font-size: 30px;
+    font: solid;
+    font-weight: 400;
+}
+
+p{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+/* footer section */
+.footer{
+    display: grid;
+    grid-template-columns: 20% 45% 10% 10%;
+    background-color: purple;
+    
+}
+.flogo img{
+    width: 300px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.footer li{
+    display: block;
+    margin-top: 10px;
+}
+.footer a{
+    font-size: 25px;
+}
+
+.ftext{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    color: white;
+}
+
+.fnav{
+    margin-top: 10px;
+}
+.fsocials{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mfooter{
+    background-color: purple;
+    
+}
+.copy{
+    color: white;
+    text-align: center;
+}
+/* footer section done */
